@@ -34,7 +34,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(248, 54, 255);
+  background-color: rgba(248, 54, 255, 0.5);
   color: rgb(0,250,200);
   border: none;
   border-radius: 8px;
@@ -69,7 +69,7 @@ a:active {
 }
 
 a:hover {
-  background-color: rgb(248, 64, 255);
+  background-color: rgba(248, 64, 255, 0.5);
   color: rgb(0,250,200);
   border-radius: 10px;
   transition-duration: 0.4s;
@@ -122,12 +122,12 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .Disabled {
   cursor: not-allowed;
-  opacity: 0.7;
+  opacity: 0.5;
 
 }
 
 .Disabled:hover {
-  opacity: 0.7;
+  opacity: 0.5;
   cursor: not-allowed;
   background-color: rgb(247, 111, 252);
   border-radius: 4px;
@@ -170,7 +170,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 #scrlUp {
   padding: 15px;
-  background-color: rgba(230, 98, 212, 0.6);
+  background-color: rgba(230, 98, 212, 0.1);
   z-index: 5;
   bottom: 20px;
   right: 30px;
@@ -188,7 +188,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 
 #scrlUp:hover {
-  background-color: rgb(230, 98, 212);
+  background-color: rgba(230, 98, 212, .5);
   transition-duration: 0.5s;
   transition-timing-function: ease;
   transition-property: all;
@@ -220,7 +220,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 .short:hover {
   width: 150px;
   background-color: rgb(248, 54, 255);
-  transition-duration: 0.7s;
+  transition-duration: 0.5s;
 
 }
 
@@ -250,7 +250,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   color: rgb(255, 255, 255);
   transition-duration: 0.4s;
   transition-property: all;
-  background-color: rgb(248, 54, 255);
+  background-color: rgba(248, 54, 255, .5);
 
 }
 
@@ -292,7 +292,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   border-radius: 0px;
   width: auto;
   transition-duration: 0.4s;
-  background-color: rgb(248, 54, 255);
+  background-color: rgba(248, 54, 255, .5);
 
 }
 
@@ -301,11 +301,13 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 .DDContent {
+  opacity: 0%;
   display: none;
   position: absolute;
   z-index: 2;
   margin-left: -3px;
   width: 150px;
+  transition: opacity 0.4s;
   
 }
 
@@ -318,7 +320,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   z-index: 4;
   min-width: 70px;
   text-decoration: none;
-
+  
 }
 
 .DDContent a.active {
@@ -329,7 +331,9 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 .DD:hover .DDContent {
+  opacity: 100%;
   display: block;
+  transition: opacity 0.4s;
 
 }
 
