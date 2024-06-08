@@ -11,7 +11,10 @@
 
 <div id="BGOverlay"></div>
 <body>
-<button id="scrlUp" onclick="scrlToTop()">Top</button>
+<div id="scrlUp" onclick="scrlToTop()">
+  <svg fill="#000000" height="15px" width="15px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 330"><path d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path></svg>
+</div>
+
 
 <div class="NavBar-wrap">
   <div class="NavBar-title">
@@ -19,7 +22,7 @@
   </div>
   <div class="NavBar-pages">
       <div class="DD">
-        <button class="NavButton"; onclick="document.location='/useful/useful.html'">Useful Stuff</button>
+        <button class="NavButton"; onclick="document.location='/useful/useful.html'">Resources</button>
         <div class="DDContent">
             <a href="/useful/linux.html">Linux</a>
             <a href="/useful/windows.html">Windows</a>
@@ -40,12 +43,23 @@
 </div> -->
 
 
-<div style="text-align: center; background-color: rgba(0,0,0,0.5); border-radius: 20px; margin: 2% 10%; padding: 8px;">
-  <h2>IDk</h2>
+<div class="body">
+  <div class="mainbody">
+    <h1>Home</h1>
 
-  <br>
+    <br>
 
-  <p style="margin-left: 15px;">yo</p>
+    <p>yo. look around for some cool stuff.</p>
+  </div>
+  <div class="quicklinks">
+    <a href="https://github.com/furthir" title="Github Profile" target="_blank">
+      <img src="/assets/github-mark.svg" alt="Github Profile">
+    </a>
+    <div class="h-divide"></div>
+    <a href="https://github.com/furthir/furthir.github.io" title="Site Repo" target="_blank">
+      <img src="/assets/github-mark.svg" alt="Site Repo">
+    </a>
+  </div>
 </div>
 
 <div style="padding-bottom: 1000px;"> </div>

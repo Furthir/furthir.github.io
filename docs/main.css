@@ -48,7 +48,26 @@ button:hover {
   
 }
 
-a:link {
+.NavBar-pages a {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, .35);
+  padding: 15px 25px;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+
+}
+
+.NavBar-pages a:hover {
+  background-color: rgba(248, 64, 255, 0.5);
+  color: rgb(0,250,200);
+  border-radius: 10px;
+  transition-duration: 0.4s;
+
+}
+/* a:link {
   color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, .35);
   padding: 15px 25px;
@@ -79,7 +98,7 @@ a:hover {
   border-radius: 10px;
   transition-duration: 0.4s;
 
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -87,7 +106,7 @@ html {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  background-image: url(https://i.postimg.cc/85tBfZGs/dark-forest.png);
+  background-image: url(https://ftn.s-ul.eu/U5C1wTyA);
   
 }
 
@@ -96,8 +115,68 @@ body {
 
 }
 
+.body {
+  display: grid;
+  text-align: center;
+  align-items: start;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  margin: 2% 10%;
+  padding: 16px;
+  min-height: calc(100vh - 180px);
+  backdrop-filter: blur(12px);
+}
+
+.mainbody {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.altbody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5em;
+}
+
+.np {
+  display: flex;
+  border: solid red 4px;
+  border-radius: 8px;
+  background: rgba(145, 145, 145, 0.5);
+  padding: 16px;
+  
+}
+
+.bio {
+  display: flex;
+  border: solid red 4px;
+  border-radius: 8px;
+  background: rgba(156, 156, 156, 0.3);
+  padding: 16px;
+  max-width: 40%;
+}
+.quicklinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  gap: 12px;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.h-divide {
+  background: white;
+  width: 20px;
+  height: 3px;
+  border-radius: 2px;
+}
+
 ::selection {
-  background: rgb(247, 112, 215);
+  background: rgb(247, 112, 215, 0.3);
   
 }
 
@@ -115,8 +194,18 @@ td {
 p, h1, h2, h3, h4, h5, h6, ul, li {
   color: rgb(255, 255, 255);
   font-family: Arial;
-  margin-left: 15px;
 
+}
+
+.about-h2 {
+  align-self: flex-start; 
+  padding-left: 12px;
+}
+
+.about-text {
+  text-align: left; 
+  padding-left: 24px; 
+  align-self: flex-start;
 }
 
 .blank {
@@ -174,30 +263,29 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 #scrlUp {
-  padding: 15px;
+  display: block;
+  padding: 10px;
   background-color: rgba(230, 98, 212, 0.1);
+  opacity: 0;
   z-index: 5;
   bottom: 20px;
-  right: 30px;
+  right: 20px;
   position: fixed;
-  border: none;
   border-radius: 4px;
-  outline: none;
   cursor: pointer;
-  width: 70px;
+  width: 35px;
   transition-duration: 0.5s;
-  transition-timing-function: ease;
   transition-property: all;
-
 }
 
 
 #scrlUp:hover {
-  background-color: rgba(230, 98, 212, .5);
+  background-color: rgba(255, 138, 239, 0.5);
   transition-duration: 0.5s;
-  transition-timing-function: ease;
-  transition-property: all;
+}
 
+#scrlUp.visible {
+  opacity: 1;
 }
 
 #BGOverlay {
@@ -248,7 +336,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   left: 0;
   z-index: 3;
   height: fit-content;
-
+  border-radius: 12px;
 }
 
 .NavBar-pages {
@@ -301,7 +389,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 .DD {
   position: relative;
   display: inline-block;
-  
+  border-radius: 12px;
 }
 
 .DDButton {
@@ -330,6 +418,8 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 .DDContent {
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter: blur(12px);
   opacity: 0%;
   display: none;
   position: absolute;
@@ -337,13 +427,14 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   margin-left: -3px;
   width: 150px;
   transition: opacity 0.4s;
+  border-radius: 12px;
   
 }
 
 .DDContent a {
   float: none;
   display: block;
-  border-radius: 0px;
+  border-radius: 12px;
   padding: 15px 25px;
   width: 150px;
   z-index: 4;

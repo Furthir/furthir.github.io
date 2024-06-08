@@ -10,25 +10,59 @@
 </head>
 
 <body>
-<button id="scrlUp" onclick="scrlToTop()">Top</button>
+<div id="scrlUp" onclick="scrlToTop()">
+    <svg fill="#000000" height="15px" width="15px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 330"><path d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path></svg>
+</div>
 
 <div class="NavBar-wrap">
     <div class="NavBar-title">
-      <button class="NavButton">Home</button>
+        <button class="NavButton"; onclick="document.location='/index.html'">Home</button>
     </div>
     <div class="NavBar-pages">
         <div class="DD">
-          <button class="NavButton"; onclick="document.location='useful/useful.html'">Useful Stuff</button>
-          <div class="DDContent">
-              <a href="useful/linux.html">Linux</a>
-              <a href="useful/windows.html">Windows</a>
-          </div>
+            <button class="NavButton"; onclick="document.location='useful/useful.html'">Resources</button>
+            <div class="DDContent">
+                <a href="useful/linux.html">Linux</a>
+                <a href="useful/windows.html">Windows</a>
+            </div>
         </div>
         <button class="NavButton active"; onclick="document.location='about.html'">About</button>
-  
     </div>
-  
-  </div>
+</div>
 
+<div class="body">
+    <h1>About Me</h1>
+    <div class="altbody">
+        <div class="np">
+            <h2>(now playing placeholder)</h2>
+            <br>
+
+        </div>
+        <div class="bio">
+            <p>uhhhh yeah idk man i just do shit. i'm an avid linux and foss enjoyer and have strong hatred towards big tech. i'm quite passionate when it comes to tech but i actually hate it because i have tech issues literally every day. </p>
+        </div>
+    </div>
+</div>
+<br>
+<div class="body">
+    <div class="mainbody">
+        <h2 class="about-h2">hobbies</h2>
+        <p class="about-text">currently enjoy 
+            <a href="https://monkeytype.com/profile/ftn">typing</a>
+            "coding", gaming, and yapping
+        </p>
+        <br>
+        <h2 class="about-h2">dislikes</h2>
+        <p class="about-text">i hate big tech (google, microsoft, apple, etc.) with all my life, but i'm still trying to break out of the apple ecosystem since they fucking trapped me in.</p>
+        <br>
+        <h2 class="about-h2">setup</h2>
+        <p class="about-text">a laptop. trackpad only.<br>
+            dual booting endeavouros linux on liquorix 6.5.11 and win10 using revi<br>
+            12gb ram 256gb storage<br>
+            using 3 phones: iphone 7, 8, and 13<br>
+            7 jailbroken on odyssey 13.3, 8 jailbroken on dopamine 15.1, 13 stock
+        </p>
+    </div>
+</div>
 
 <div id="BGOverlay"></div>
