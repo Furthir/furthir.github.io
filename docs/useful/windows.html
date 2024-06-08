@@ -5,25 +5,29 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>frthr - Useful Windows Resources</title>
-  <link href="/main.css" rel="stylesheet" type="text/css"/>
-  <script src="/scroll.js" type="text/javascript"></script>
+  <link href="../main.css" rel="stylesheet" type="text/css"/>
+  <script src="../scroll.js" type="text/javascript"></script>
 </head>
 
 <body>
 <button id="scrlUp" onclick="scrlToTop()">Top</button>
 
-<div class="NavBar">
-    <button class="NavButton"; onclick="document.location='/index.html'">Home</button>
-    <div class="DD">
-        <button class="NavButton active"; onclick="document.location='useful.html'">Useful Stuff</button>
-    <div class="DDContent">
-        <a href="linux.html">Linux</a>
-        <a class="active">Windows</a>
+<div class="NavBar-wrap">
+    <div class="NavBar-title">
+      <button class="NavButton">Home</button>
     </div>
-</div>
-<button class="NavButton"; onclick="document.location='/about.html'">About</button>
-
-</div>
-
+    <div class="NavBar-pages">
+        <div class="DD">
+          <button class="NavButton active"; onclick="document.location='/useful/useful.html'">Useful Stuff</button>
+          <div class="DDContent">
+              <a href="/useful/linux.html">Linux</a>
+              <a href="/useful/windows.html">Windows</a>
+          </div>
+        </div>
+        <button class="NavButton"; onclick="document.location='/about.html'">About</button>
+  
+    </div>
+  
+  </div>
 
 <div id="BGOverlay"></div>

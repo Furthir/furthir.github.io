@@ -12,18 +12,23 @@
 <body>
 <button id="scrlUp" onclick="scrlToTop()">Top</button>
 
-<div class="NavBar">
-    <button class="NavButton"; onclick="document.location='index.html'">Home</button>
-    <div class="DD">
-        <button class="NavButton"; onclick="document.location='useful/useful.html'">Useful Stuff</button>
-    <div class="DDContent">
-        <a href="useful/linux.html">Linux</a>
-        <a href="useful/windows.html">Windows</a>
+<div class="NavBar-wrap">
+    <div class="NavBar-title">
+      <button class="NavButton">Home</button>
     </div>
-</div>
-<button class="NavButton active">About</button>
-
-</div>
+    <div class="NavBar-pages">
+        <div class="DD">
+          <button class="NavButton"; onclick="document.location='useful/useful.html'">Useful Stuff</button>
+          <div class="DDContent">
+              <a href="useful/linux.html">Linux</a>
+              <a href="useful/windows.html">Windows</a>
+          </div>
+        </div>
+        <button class="NavButton active"; onclick="document.location='about.html'">About</button>
+  
+    </div>
+  
+  </div>
 
 
 <div id="BGOverlay"></div>
