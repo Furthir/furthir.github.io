@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>frthr - Why Linux?</title>
+  <link href="../main.css" rel="stylesheet" type="text/css"/>
+  <script src="../scripts/scroll.js" type="text/javascript"></script>
+  <script src="../scripts/nav.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="BGOverlay"></div>
+<div id="scrlUp" onclick="scrlToTop()">
+    <svg fill="#000000" height="15px" width="15px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 330"><path d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path></svg>
+</div>
+
+<div class="NavBar-wrap">
+    <div class="NavBar-title">
+        <button class="NavButton"; onclick="document.location='/index.html'">Home</button>
+    </div>
+    <div class="NavBar-pages">
+        <div class="DD">
+            <button class="NavButton active"; onclick="document.location='/pages/pages.html'";>Pages</button>
+            <div class="DDContent">
+              <a href="/pages/whylinux.html">Why Linux?</a>
+              <a href="/pages/whyfoss.html">Why FOSS?</a>
+            </div>
+        </div>
+        <div class="DD">
+            <button class="NavButton"; onclick="document.location='/resources/useful.html'">Resources</button>
+            <div class="DDContent">
+                <a href="/resources/linux.html">Linux</a>
+                <a href="/resources/windows.html">Windows</a>
+                <a href="/resources/repos.html">Repos</a>
+            </div>
+        </div>
+        <button class="NavButton"; onclick="document.location='/about.html'">About</button>
+    </div>
+</div>
+
+
+<div class="body">
+    <div class="mainbody">
+        <h1>Why Linux?</h1>
+        <p style="font-size: small;">When referring to Linux here, it is a general umbrella term for all distros.</p>
+        <br>
+        <div style="text-align: left; padding: 0px 8px;">
+            <p>Linux has been around since the beginning of time, but only recently has it reached a milestone market share of 4%. It's mainly used for servers, but the desktop is just as powerful. With the recent shit Microsoft has been putting onto Windows, it's becoming more and more unbearable to use Windows as a normal OS.</p>
+            <p>Nowadays, Linux is objectively better than Windows in many ways, but of course there will always be cons. For now, let's focus on why it's a good time to at least try out Linux.</p>
+            <br>
+            <h2>Lightweight</h2>
+            <p>A common mention about why Linux is better than other OSes is the fact that it is lightweight. Windows is quite bloated, even with a clean install. Linux is usually light unless you choose a distro with a billion things on it that have to use to you. There are still many factors that can make it run just as "bad" as Windows, for example the window manager or extensions. Otherwise, it is light on resources, storage, and it's stable. You can basically run this shit on a microwave, Windows could never. </p>
+            <br>
+            <h2>It's FREE!</h2>
+            <p>Even though you can use Windows without a license or use some <a href="https://github.com/massgravel/Microsoft-Activation-Scripts" target="_blank"><i>methods</i></a> to get around that, it still leaves you under other disadvantages of Windows. Using Linux is completely free and typically will never have anything behind a paywall. You really should not need to pay for a damn license just to use an operating system. You already paid for your pc why the hell do you need to pay more.</p>
+            <br>
+            <h2>Privacy</h2>
+            <p>Windows (and Microsoft) is known for its amazing amount of telemetry and data it collects from users (it's also opt-out). Just from the oobe, you have to disable a bunch of toggles to make sure there is <b>less</b> data being collected from you. Unfortunately, there is still a lot more that needs to be tweaked to remove <b>most</b> of the telemetry planted in Windows. Dedicated tools have been created to do just that, but that's the issue. There should not be a need to create programs just to remove certain elements on an operating system to increase privacy. Since Linux is based on a free and open source foundation, it typically does not have any telemetry on its own. However, it still depends on the distro you choose, as they can make users opt in/out of telemetry features. Even though it is telemetry, it is still much more trustworthy than whatever the hell Microsoft is doing. A good example of this is <a href="https://i.opnxng.com/pics/w:null_KcDMALFjld_Zght3TT5HDxpIZ9OIgmtrf7nRQ-58l1c.png" target="_blank">KDE's opt-in telemetry slider.</a> It shows exactly what is sent to KDE and is completely up to your control whether or not you want your data to be sent to them.</p>
+            <br>
+            <h2>Java is fucking fast</h2>
+            <p>More of a silly one but I still want to mention it. Java literally runs 3-4x faster on Linux vs Windows, meaning you can basically triple your fps on Minecraft. (stuttery 60 -->  stable 200+ fps from my experience)</p>
+            <br>
+            <h2>Freedom</h2>
+            <p>You should be in control of your own systems, not some corporate overlord monopoly. You decide whether you want to install something or not. You decide whether something should look like this or that. It's not going to force you to use some spyware ai shit that completely invades your privacy.</p>
+            <br>
+            <h2>Customization</h2>
+            <p>Sort of extending on freedom, you can basically change any part of your system. From the <a href="https://github.com/Coopydood/HyperFluent-GRUB-Theme" target="_blank">bootloader</a> to the <a href="https://github.com/gdm-settings/gdm-settings" target="_blank">login</a> <a href="https://github.com/3ximus/aerial-sddm-theme" target="_blank">screen</a> to your actual <a href="https://github.com/end-4/dots-hyprland" target="_blank">desktop</a>. The only limit is your imagination <sub>and some parts of the desktop.</sub></p>
+            <br>
+        </div>
+        <h1>Why it sucks.</h1>
+        <br>
+        <div style="text-align: left; padding: 0px 8px;">
+            <p>In it's current stage, Linux is still a bit funky on specific hardware configs, especially multi-monitor setups using Nvidia (and wayland). It's why I personally still do not recommend using Linux as a daily driver for the average person, only to those who want to get their hands wet and try new things out. Most computers are able to install and run it without any need to fix stuff, but eventually there will always be something that will require you to mess around with your system. Many people want things to Just Work™️. You shouldn't need to work for your computer, your computer should be working for you. It's a common turn off for people looking at Linux.  Another huge issue with using Linux is compatibility with apps. Many apps are made specifically to be run on Windows without any Linux support. While Wine or Proton can run most apps and games, it still doesn't cover every case, especially when it comes to more complex software such as video/photo editors. And due to the lack of popularity Linux has, it's not very viable for developers to be putting in the effort to port and make apps supporting Linux. It all depends on a person's workflow, whether they need to use something that is only able to run on Windows or can be replaced by an alternative. In my opinion, it is a better step to try using FOSS alternatives to your current applications to help make a transition better, while also being free and private. Go read <a href="/pages/whyfoss.html">Why FOSS?</a> for more info.</p>
+        </div>
+    </div>
+</div>
+

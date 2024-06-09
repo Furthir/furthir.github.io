@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width">
   <title>frthr - Useful Windows Resources</title>
   <link href="../main.css" rel="stylesheet" type="text/css"/>
-  <script src="../scroll.js" type="text/javascript"></script>
+  <script src="../scripts/scroll.js" type="text/javascript"></script>
+  <script src="../scripts/nav.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -19,13 +20,21 @@
       <button class="NavButton"; onclick="document.location='/index.html'">Home</button>
     </div>
     <div class="NavBar-pages">
-        <div class="DD">
-          <button class="NavButton active"; onclick="document.location='/useful/useful.html'">Resources</button>
-          <div class="DDContent">
-              <a href="/useful/linux.html">Linux</a>
-              <a href="/useful/windows.html">Windows</a>
-          </div>
+      <div class="DD">
+        <button class="NavButton"; onclick="document.location='/pages/pages.html'";>Pages</button>
+        <div class="DDContent">
+          <a href="/pages/whylinux.html">Why Linux?</a>
+          <a href="/pages/whyfoss.html">Why FOSS?</a>
         </div>
+      </div>
+      <div class="DD">
+        <button class="NavButton active"; onclick="document.location='/resources/useful.html'">Resources</button>
+        <div class="DDContent">
+            <a href="/resources/linux.html">Linux</a>
+            <a href="/resources/windows.html">Windows</a>
+            <a href="/resources/repos.html">Repos</a>
+        </div>
+      </div>
         <button class="NavButton"; onclick="document.location='/about.html'">About</button>
   
     </div>
