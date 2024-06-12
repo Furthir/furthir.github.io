@@ -13,7 +13,7 @@
 
 <body>
     <div id="scrlUp" onclick="scrlToTop()">
-    <svg fill="#000000" height="15px" width="15px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 330"><path d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path></svg>
+    <img src="../assets/arrow.svg" alt="">
 </div>
 
 <div class="NavBar-wrap">
@@ -34,6 +34,7 @@
                 <a href="/resources/linux.html">Linux</a>
                 <a href="/resources/windows.html">Windows</a>
                 <a href="/resources/repos.html">Repos</a>
+                <a href="/resources/alternatives.html">Alternatives</a>
             </div>
         </div>
         <button class="NavButton"; onclick="document.location='/about.html'">About</button>
@@ -47,25 +48,25 @@
         <p style="font-size: small;">FOSS stands for <b>F</b>ree and <b>O</b>pen <b>S</b>ource <b>S</b>oftware</p>
         <br>
         <div style="text-align: left; padding: 0px 8px;">
-            <p>If you use a lot of programs on your computer, you most likely have something FOSS. When using Linux, you are primarily running FOSS. Use OBS? That's FOSS. In contrast to proprietary software, the source code is typically available for anyone to view and modify (depending on the license). The Free in FOSS refers to the actual freedom of the software, not the price (although it is usually free). Like Linux, there are many advantages to choose this over proprietary software, but many downsides as well.</p>
+            <p>If you use a lot of programs on your computer, you most likely have something FOSS. When using Linux, you are primarily running FOSS. Use OBS? That's FOSS. In contrast to proprietary software, the source code is typically available for anyone to view and modify (depending on the license). The Free in FOSS refers to the actual freedom of the software, not the price (although it is usually free to use). Like Linux, there are many advantages to choose this over proprietary software, but many downsides as well.</p>
             <br>
             <h2>Privacy</h2>
-            <p>Similar to Linux, FOSS will typically never have telemetry built in or enabled by default. It allows the software to be much more trustworthy for end users, while still being of good quality as most of the data really only comes from bug reports. Unfortunately, there are still bad apples. <!-- holy shit osu reference --> Some time ago, Audacity contributors had <a href="https://github.com/audacity/audacity/pull/835" target="_blank">proposed adding</a> <a href="https://github.com/audacity/audacity/discussions/889" target="_blank">telemetry</a> into it. They received some heavy backlash on top of some other controversies relating to <a href="https://github.com/audacity/audacity/issues/1213" target="_blank">license</a> <a href="https://github.com/audacity/audacity/discussions/932" target="_blank">policies</a>. This is also what caused the creation of <a href="https://codeberg.org/tenacityteam/tenacity" target="_blank">Tenacity</a>, a fork of Audacity that doesn't have all the sussy stuff going on. <sub>pls use this over audacity</sub></p>
+            <p>Similar to Linux, FOSS will typically never have telemetry built in or enabled by default. It allows the software to be much more trustworthy for end users, while still being of good quality as most of the data really only comes from bug reports. Unfortunately, there are still bad apples. <!-- holy shit osu reference --> Some time ago, Audacity contributors had <a href="https://github.com/audacity/audacity/pull/835" target="_blank">proposed adding</a> <a href="https://github.com/audacity/audacity/discussions/889" target="_blank">telemetry</a> into it. They received some heavy backlash on top of some other controversies relating to <a href="https://github.com/audacity/audacity/issues/1213" target="_blank">license</a> <a href="https://github.com/audacity/audacity/discussions/932" target="_blank">policies</a>. This is also what caused the creation of <a href="https://codeberg.org/tenacityteam/tenacity" target="_blank">Tenacity</a>, a fork of Audacity that doesn't have all the sussy stuff going on. <sub>use this over audacity just in case</sub></p>
             <br>
             <h2>Forks</h2>
-            <p>Extending on the last topic, forks are a very significant part of FOSS. If something is to stop being maintained, someone can easily fork the project and continue it. If a project has <a href="https://github.com/PolyMC/PolyMC/commit/ccf282593dcdbe189c99b81b8bc90cb203aed3ee" target="_blank">bad actors</a>, there's most likely a <a href="https://github.com/PrismLauncher/PrismLauncher" target="_blank">fork</a> that exists. It allows many projects to continue thriving even though it's original core may be in shambles.</p>
+            <p>Extending on the last topic, forks are a very significant part of FOSS. If something is to <a href="https://github.com/jely2002/youtube-dl-gui" target="_blank">stop being maintained</a>, someone can easily <a href="https://github.com/StefanLobbenmeier/youtube-dl-gui" target="_blank">fork the project</a> and continue it. If a project has <a href="https://github.com/PolyMC/PolyMC/commit/ccf282593dcdbe189c99b81b8bc90cb203aed3ee" target="_blank">bad actors</a>, there's most likely a <a href="https://github.com/PrismLauncher/PrismLauncher" target="_blank">fork</a> that exists. It allows many projects to continue thriving even though it's original core may be in shambles. Forks also allow developers to make their own modifications to the project without needing to gain approval from the original maintainer. </p>
             <br>
             <h2>Contributions</h2>
             <p>Due to the open source nature, people can easily contribute to existing projects. It can range from translations, code, art, or just simply ideas. Everything is maintained by the community, which makes it much easier to be able to communicate your ideas to maintainer(s).</p>
             <br>
             <h2>Safe (mostly)</h2>
-            <p>Most of the repos you see on github will be safe. No malware, no bloatware, no sussy stuff (mostly). You can't really get away with putting malicious stuff into your project for very long. Everything is documented via commits, which show exactly what has been modified since the last change. That doesn't mean there won't be anyone who decides to put something <a href="https://en.wikipedia.org/wiki/XZ_Utils#Backdoor_incident" target="_blank">malicious into a project</a>, whether in or out of their control. A good way of filtering some of the more sussy projects is to filter out searches that are lower than 100 stars, e.g. putting <code>stars:<100</code> into your search query on Github.</p>
+            <p>Most of the repos you see on github will be safe. No malware, no bloatware, no sussy stuff (mostly). You can't really get away with putting malicious stuff into your project for very long. Everything is documented via commits, which show exactly what has been modified since the last change. That doesn't mean there won't be any a project that contains <a href="https://en.wikipedia.org/wiki/XZ_Utils#Backdoor_incident" target="_blank">something malicious</a> at one point, whether in or out of their control. A good way of filtering some of the more sussy projects is to filter out searches that are lower than 100 stars, e.g. putting <code>stars:<100</code> into your search query on Github. Of course, the best way to tell if something is safe or not just manually reviewing the source code, but not everyone knows how to do that.</p>
             <br>
-            <h2>Free</h2>
-            <p>Free as in price. You shouldn't really be paying for proprietary software, especially if it's sussy and expensive. There are many great FOSS alternatives to proprietary software, but that's a <a href="">different topic</a>. Of course, there's no way around paying for an objectively good piece of software (well..) but using a quality alternative is still better than going in debt and having your stuff be used for ai.</p>
+            <h2>Free (mostly)</h2>
+            <p>Free as in price. You shouldn't really be paying for proprietary software, especially if it's sussy and expensive. There are many great FOSS alternatives to proprietary software, but that's a <a href="/resources/alternatives.html">different topic</a>. Of course, there's no way around paying for an objectively good piece of software (well..) but using a quality alternative is still better than going in debt and having your stuff be used for ai.</p>
             <br>
-            <h2>Just plain useful.</h2>
-            <p>Many tools are just available on Github, but may not appear on search engines. Some obscure issue you have could probably be solved by an underground Github repo that never appeared on your search engine when you looked for a solution. It's why I've started to keep a <a href="/resources/repos.html">list</a> of useful or interesting repos that someone may find handy.</p>
+            <h2>Just useful.</h2>
+            <p>Many tools are just available on Github, but may not appear on search engines. Some obscure issue you have could probably be solved by an underground (or extremely popular) Github repo that never appeared on your search engine when you looked for a solution. It's why I've started to keep a <a href="/resources/repos.html">list</a> of useful or interesting repos that someone may find handy.</p>
         </div>
     </div>
 </div>

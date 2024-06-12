@@ -1,3 +1,4 @@
+window.addEventListener("DOMContentLoaded", (event) => {
 const scrlbtn = document.getElementById("scrlUp");
 const rootElement = document.documentElement;
 
@@ -9,12 +10,12 @@ function dist() {
     btn.style.display = "block";
     setTimeout(function(){
       btn.classList.add('visible');
-    }, 25);
+    }, 55);
   } else {
     btn.classList.remove('visible');
     setTimeout(function(){
       btn.style.display = "none";
-    }, 25);
+    }, 55);
   }
 }
 
@@ -26,20 +27,4 @@ function scrlToTop() {
   behavior: "smooth"
   })
 }
-
-window.addEventListener("DOMContentLoaded", (event) => {
-  function loadScript(url, callback) {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.onload = function() {
-      callback();
-    };
-    script.src = url;
-    document.head.appendChild(script);
-
-  }
-
-  loadScript("nav.js", function() {
-    console.log("loaded");
-  });
 });
