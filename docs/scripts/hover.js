@@ -19,19 +19,18 @@ window.addEventListener("DOMContentLoaded", (event) => {
         const pathFill = window.getComputedStyle(path);
         // console.log(pathFill)
         const chFill = pathFill.getPropertyValue('fill');
+        qlCh.style.boxShadow = `0px 0px 20px 1px ${chFill}, inset 0px 0px 10px 0px ${chFill}`;
         // console.log(chFill);
-        if (chFill.includes("none")) {
-            
-            const chColor = pathFill.getPropertyValue('stroke-color');
-            qlCh.style.boxShadow = `0px 0px 20px 1px ${chColor}, inset 0px 0px 10px 0px ${chColor}`;
-        } else if (!chFill.includes("rgb")) {
+        if (!chFill.includes("rgb")) {
             const qlComp = window.getComputedStyle(qlEl);
-            const chColor = qlComp.getPropertyValue('color');
+            const chColor = qlComp.getPropertyValue('lighting-color');
             qlCh.style.boxShadow = `0px 0px 20px 1px ${chColor}, inset 0px 0px 10px 0px ${chColor}`;
             // console.log(qlComp);
-            // console.log(chColor);
+            console.log(chColor);
+        } else if (chFill.includes("none")) {
+            const chColor = pathFill.getPropertyValue('stroke-color');
+            qlCh.style.boxShadow = `0px 0px 20px 1px ${chColor}, inset 0px 0px 10px 0px ${chColor}`;
         }
-        qlCh.style.boxShadow = `0px 0px 20px 1px ${chFill}, inset 0px 0px 10px 0px ${chFill}`;
     }
 
     function uncolored(event) {

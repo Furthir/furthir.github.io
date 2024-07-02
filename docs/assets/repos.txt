@@ -1,7 +1,7 @@
 https://github.com/StefanLobbenmeier/youtube-dl-gui
 https://github.com/Francesco149/linux-osu
 https://github.com/swaywm/sway/
-https://github.com/ppy/osu-tools
+https://github.com/mattermost/focalboard
 https://github.com/sebastiancarlos/yas-bdsm
 https://github.com/hbang/NewTerm
 https://github.com/nvbn/thefuck
@@ -10,10 +10,10 @@ https://github.com/ChrisTitusTech/winutil
 https://github.com/arkenfox/user.js/
 https://github.com/straight-tamago/misaka
 https://github.com/danihek/Themecord
-https://github.com/PoomSmart/TrollLEDs
+https://github.com/Zettlr/Zettlr
 https://github.com/davidhealey/waistline
 https://github.com/0xilis/LetMePass
-https://github.com/AstraExt/astra-monitor
+https://github.com/bundit/kord
 https://github.com/kraanzu/smassh
 https://github.com/agarrharr/awesome-cli-apps
 https://github.com/rhasspy/piper
@@ -44,18 +44,17 @@ https://github.com/qarmin/czkawka
 https://github.com/theapachecats/bitchx
 https://github.com/c22dev/Geranium
 https://github.com/mifi/lossless-cut
-https://github.com/xiph/opus
-https://github.com/xiph/flac
-https://github.com/RustAudio/rodio
-https://github.com/ruuda/claxon
-https://github.com/RustAudio/lewton
+https://github.com/nuclearfog/Shitter
+https://github.com/TeamPiped/Piped
+https://codeberg.org/Hyperpipe/Hyperpipe
+https://github.com/zws-im/zws
+https://github.com/kurolabs/stegcloak
 https://github.com/diced/zipline
 https://github.com/ActivityWatch/activitywatch
 https://github.com/Alwinator/aw-watcher-utilization
 https://github.com/mendel5/alternative-front-ends
 https://github.com/WaviestBalloon/MyNameIsWalterHartwellWhite
 https://github.com/digitalblossom/alternative-frontends
-https://github.com/massgravel/Microsoft-Activation-Scripts
 https://github.com/boltgolt/howdy
 https://github.com/th-ch/youtube-music
 https://github.com/abeleinin/goki
@@ -105,7 +104,7 @@ https://github.com/StreamController/StreamController
 https://github.com/arichornlover/uYouEnhanced
 https://github.com/YaLTeR/niri
 https://github.com/ShareX/ShareX
-https://github.com/ShareX/ShareX/issues/6531
+https://github.com/flameshot-org/flameshot
 https://github.com/NelloKudo/osu-winello/wiki/Even-lower-latency:-PipeWire-settings
 https://github.com/FreeTubeApp/FreeTube
 https://github.com/siddhpant/broo
@@ -139,8 +138,8 @@ https://github.com/sabrogden/Ditto
 https://github.com/Rafficer/linux-cli-community
 https://github.com/didier/phone-as-webcam
 https://github.com/breezy-weather/breezy-weather
+https://github.com/CapSoftware/Cap
 https://github.com/LizardByte/Sunshine
-https://github.com/pixeltris/TwitchAdSolutions
 https://github.com/pbatard/rufus
 https://github.com/PrismLauncher/PrismLauncher
 
