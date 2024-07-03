@@ -116,6 +116,7 @@ a:hover {
 
 html {
   scroll-behavior: smooth;
+  background-color: transparent !important;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -126,7 +127,7 @@ html {
 
 body {
   z-index: -2;
-
+  background-color: transparent !important;
 }
 
 .body {
@@ -134,7 +135,7 @@ body {
   text-align: center;
   align-items: start;
   align-content: space-between;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.5) !important;
   border-radius: 20px;
   margin: 2% 3%;
   padding: 16px;
@@ -186,6 +187,9 @@ body {
   align-self: flex-end;
 }
 
+.quicklinks p {
+  font-size: small;
+}
 .quicklinks a {
   transition: 0.3s;
   filter: brightness(1);
@@ -246,7 +250,7 @@ td {
 
 }
 
-p, h1, h2, h3, h4, h5, h6, ul, li {
+p, h1, h2, h3, h4, h5, h6, ul, li, a {
   color: rgb(255, 255, 255);
   font-family: "Poppins";
   font-style: normal;
