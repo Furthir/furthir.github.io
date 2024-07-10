@@ -1,0 +1,225 @@
+[
+    {
+        "category": "Adobe",
+        "appName": "Krita",
+        "appImage": "https://krita.org/images/pages/application-screenshot.webp",
+        "appIcon": "../assets/krita.svg",
+        "description": "While Krita itself it meant to be a digital painting program, it can still be useful in general photo editing similar to Photoshop. It's also a great alternative to Clip Studio Paint. It is completely free and open source, so there isn't any reason not to try it out. Supports opening .psd files.",
+        "altTo": "Photoshop",
+        "platforms": [
+            {"name": "Linux"},
+            {"name": "Windows"},
+            {"name": "Mac"}
+        ],
+        "links": {
+            "Github": "https://github.com/KDE/krita",
+            "Site": "https://krita.org/en/"
+      }
+    },
+    {
+        "category": "Adobe",
+        "appName": "Photopea",
+        "appImage": "https://imgur.artemislena.eu/gl6lKb7.png",
+        "appIcon": "https://www.photopea.com/promo/icon512.png",
+        "description": "Photopea is browser based, and has a lot of Photoshop's functionality, all in your browser, all for free. It also offers some small but nice features, like a benchmark, cloud storage, and scripts. Supports opening .psd files. Contains ads (use <a href=\"https://github.com/gorhill/uBlock\">uBlock</a>).",
+        "altTo": "Photoshop",
+        "platforms": [
+            {"name": "Linux"},
+            {"name": "Windows"},
+            {"name": "Mac"}
+        ],
+        "links": {
+            "Site": "https://photopea.com/"
+        }
+    },
+    {
+        "category": "Adobe",
+        "appName": "Inkscape",
+        "appImage": "https://media.inkscape.org/media/resources/file/Screenshot_Freedom_Machine_Inkscape_master_FB3NeUU.png",
+        "appIcon": "../assets/Inkscape.svg",
+        "description": "Inkscape is a free and open source vector graphics editor. It offers a great set of features and supports many files formats. Supports opening Adobe Illustrator files (.ai)",
+        "altTo": "Illustrator",
+        "platforms": [
+            {"name": "Linux"},
+            {"name": "Windows"},
+            {"name": "Mac"}
+        ],
+        "links": {
+            "Gitlab": "https://gitlab.com/inkscape/inkscape",
+            "Site": "https://inkscape.org/"
+        }
+    },
+    {
+        "category": "Adobe",
+        "appName": "DaVinci Resolve",
+        "appImage": "https://ftn.s-ul.eu/KBvJGtAx",
+        "appIcon": "../assets/DaVinci_Resolve.png",
+        "description": "Resolve (not Resolve Studio) is a free and fully fledged video editor with basically every thing you need. Great editor when testing the waters of editing. Requires an account to register and download (you can just bullshit the info), and supports all major platforms.",
+        "altTo": "Premiere",
+        "platforms": [
+            {"name": "Linux"},
+            {"name": "Windows"},
+            {"name": "Mac"}
+        ],
+        "links": {
+            "Site": "https://www.blackmagicdesign.com/products/davinciresolve"
+        }
+    },
+
+
+
+    {
+        "category": "Microsoft",
+        "appName": "Calligra",
+        "appImage": "https://calligra.org/assets/img/words-summary.png",
+        "appIcon": "../assets/Calligra.svg",
+        "description": "Rather than just a single app/tool, Calligra is an entire suite containing multiple office and graphic editing tools. These include documents, sheets, presentations, and a vector editor.",
+        "altTo": "Office",
+        "platforms": [
+            {"name": "Linux"},
+            {"name": "Windows"},
+            {"name": "Mac"}
+        ],
+        "links": {
+            "Site": "https://calligra.org/"
+        }
+    },
+    {
+        "category": "Microsoft",
+        "appName": "Flow Launcher",
+        "appImage": "https://user-images.githubusercontent.com/6903107/145332614-74909973-f6eb-47c2-8235-289931e30718.png",
+        "appIcon": "../assets/flowlaunch.png",
+        "description": "A launcher for Windows with powerful functionality. It can run commands, do calculations, search through files and apps, Spotify control, clipboard management, and more. There are also many customizations options.",
+        "altTo": "PowerToys Run",
+        "platforms": [
+            {"name": "Windows"}
+        ],
+        "links": {
+            "Github": "https://github.com/Flow-Launcher/Flow.Launcher",
+            "Site": "https://www.flowlauncher.com/"
+        }
+    },
+    {
+        "category": "Microsoft",
+        "appName": "VSCodium",
+        "appImage": "https://vscodium.com/img/vscodium.png",
+        "appIcon": "../assets/vscodium.svg",
+        "description": "VS Code but stripped of telemetry and the ✨ Microsoft touch ✨. <a href=\"https://github.com/VSCodium/vscodium/blob/master/docs/index.md#disable-telemetry\" target=\"_blank\">Small amounts of telemetry is still enabled, but can easily be turned off.</a>",
+        "altTo": "VS Code",
+        "platforms": [
+            {"name": "Linux"},
+            {"name": "Windows"},
+            {"name": "Mac"}
+        ],
+        "links": {
+            "Github": "https://github.com/VSCodium/vscodium",
+            "Site": "https://vscodium.com/"
+        }
+    },
+    {
+        "category": "Microsoft",
+        "appName": "OnlyOffice",
+        "appImage": "https://ftn.s-ul.eu/yzRSAtdB",
+        "appIcon": "../assets/onlyoffice.svg",
+        "description": "OnlyOffice is a FOSS MS Office suite alternative. It consists of online editors and desktop apps for text documents, spreadsheets, presentations, forms and PDFs, all of which support collaborative editing. It especially excels as it supports MS Office files, so users can switch over easier.",
+        "altTo": "Office",
+        "platforms": [
+            {"name": "Linux"},
+            {"name": "Windows"},
+            {"name": "Mac"}
+        ],
+        "links": {
+            "Github": "https://github.com/ONLYOFFICE",
+            "Site": "https://onlyoffice.com/"
+        }
+    },
+
+
+    
+    {
+        "category": "Google",
+        "appName": "FreeTube",
+        "appImage": "https://ftn.s-ul.eu/i55OvTNa",
+        "appIcon": "../assets/freetube.svg",
+        "description": "FreeTube is an open source YouTube player that focused on privacy. It prevents Google from tracking the user and comes with many extra features as well, including adblock.",
+        "altTo": "YouTube site",
+        "platforms": [
+            {"name": "Linux"},
+            {"name": "Windows"},
+            {"name": "Mac"}
+        ],
+        "links": {
+            "Github": "https://github.com/FreeTubeApp/FreeTube",
+            "Site": "https://freetubeapp.io/"
+        }
+    },
+    {
+        "category": "Google",
+        "appName": "Invidious",
+        "appImage": "https://github.com/iv-org/invidious/blob/master/screenshots/04_description.png?raw=true",
+        "appIcon": "../assets/invidious.svg",
+        "description": "A web alternative YouTube frontend focused on privacy. Includes a lot of features similar to FreeTube, such as having no ads, and importing subscriptions.",
+        "altTo": "YouTube site",
+        "platforms": [
+            {"name": "Linux"},
+            {"name": "Windows"},
+            {"name": "Mac"}
+        ],
+        "links": {
+            "Github": "https://github.com/iv-org/invidious",
+            "Site": "https://invidious.io/",
+            "Instance": "https://invidious.drgns.space/feed/popular"
+        }
+    },
+    {
+        "category": "Google",
+        "appName": "Proton",
+        "appImage": "https://ftn.s-ul.eu/r6Z6mNSl",
+        "appIcon": "../assets/proton.svg",
+        "description": "Proton is a suite of applications that focus on user privacy. The suite includes mail, calendar, cloud drive, password manager, documents, and VPN. All apps offer some form of encryption and is open source.",
+        "altTo": "Google Apps",
+        "platforms": [
+            {"name": "Linux"},
+            {"name": "Windows"},
+            {"name": "Mac"}
+        ],
+        "links": {
+            "Github": "https://github.com/ProtonMail",
+            "Site": "https://proton.me"
+        }
+    },
+    {
+        "category": "Google",
+        "appName": "Tuta",
+        "appImage": "https://tuta.com/resources/images/press/tutanota-ipad-screens-mockup.png",
+        "appIcon": "../assets/tuta.svg",
+        "description": "Tuta<strike>nota</strike> is an open source end-to-end encrypted email service. It offers cross-platform apps as well as encrypted calendars and contacts. The service is advertisement-free, and you can get pretty short emails with it too.",
+        "altTo": "Gmail",
+        "platforms": [
+            {"name": "Linux"},
+            {"name": "Windows"},
+            {"name": "Mac"}
+        ],
+        "links": {
+            "Github": "https://github.com/tutao/tutanota",
+            "Site": "https://tuta.com/"
+        }
+    },
+    {
+        "category": "Google",
+        "appName": "Floorp",
+        "appImage": "https://floorp.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.82a95fa4.png&w=1080&q=75",
+        "appIcon": "https://avatars.githubusercontent.com/u/94953125?s=200&v=4",
+        "description": "Floorp is an open source browser based on Firefox. It offers tracking protection, powerful customization, no telemetry, and isn't affected by Manifest V3.",
+        "altTo": "Chrome",
+        "platforms": [
+            {"name": "Linux"},
+            {"name": "Windows"},
+            {"name": "Mac"}
+        ],
+        "links": {
+            "Github": "https://github.com/Floorp-Projects/Floorp/",
+            "Site": "https://floorp.app/"
+        }
+    }
+  ]

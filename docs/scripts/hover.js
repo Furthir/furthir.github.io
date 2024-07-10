@@ -1,4 +1,5 @@
 window.addEventListener("DOMContentLoaded", (event) => {
+    setTimeout(function(){
     const el = document.getElementsByClassName('quicklinkimg');
 
     for (var i = 0; i < el.length; i++) {
@@ -26,17 +27,18 @@ window.addEventListener("DOMContentLoaded", (event) => {
             const chColor = qlComp.getPropertyValue('lighting-color');
             qlCh.style.boxShadow = `0px 0px 20px 1px ${chColor}, inset 0px 0px 10px 0px ${chColor}`;
             // console.log(qlComp);
-            console.log(chColor);
+            // console.log(chColor);
         } else if (chFill.includes("none")) {
             const chColor = pathFill.getPropertyValue('stroke-color');
             qlCh.style.boxShadow = `0px 0px 20px 1px ${chColor}, inset 0px 0px 10px 0px ${chColor}`;
         }
     }
-
+    
     function uncolored(event) {
         const el = event.currentTarget;
         const ch = el.querySelector(':first-child');
         ch.style.boxShadow = `none`;
     }
-
+    
+}, 1000);
 });

@@ -1,4 +1,5 @@
 window.addEventListener("DOMContentLoaded", (event) => {
+// ------------------- Scroll Button ------------------- \\
 const scrlbtn = document.getElementById("scrlUp");
 const rootElement = document.documentElement;
 
@@ -27,4 +28,6 @@ function scrlToTop() {
   behavior: "smooth"
   })
 }
+
+// ----- end -----
 });
