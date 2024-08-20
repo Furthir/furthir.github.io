@@ -16,6 +16,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
     function colored(event) {
         const qlEl = event.currentTarget;
         const qlCh = qlEl.querySelector(':first-child');
+        // console.log(qlCh);
+        if (qlCh.tagName.includes("IMG")) {
+            const qlComp = window.getComputedStyle(qlEl);
+            const chColor = qlComp.getPropertyValue('lighting-color');
+            qlCh.style.boxShadow = `0px 0px 20px 1px ${chColor}, inset 0px 0px 10px 0px ${chColor}`;
+            return;
+        }
         const path = qlCh.querySelector('path')
         const pathFill = window.getComputedStyle(path);
         // console.log(pathFill)
@@ -31,7 +38,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
         } else if (chFill.includes("none")) {
             const chColor = pathFill.getPropertyValue('stroke-color');
             qlCh.style.boxShadow = `0px 0px 20px 1px ${chColor}, inset 0px 0px 10px 0px ${chColor}`;
-        }
+        } 
+            
+        
     }
     
     function uncolored(event) {
