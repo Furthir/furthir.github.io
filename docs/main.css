@@ -162,7 +162,7 @@ body {
   border-radius: 20px;
   margin: 2% 3%;
   padding: 16px;
-  min-height: calc(90vh - 180px);
+  min-height: calc(47em - 180px);
   backdrop-filter: blur(12px);
   animation: FadeIn .8s;
 
@@ -272,11 +272,11 @@ body {
   filter: contrast(0.5);
 }
 
-.quicklinks:has(:is(.quicklinkimg:hover))  a[href*="github.com"] .quicklinkimg:not(:is(:hover)) {
+.quicklinks:has(.quicklinkimg:hover)  a[href*="github.com"] .quicklinkimg:not(:hover) {
   filter: contrast(0.25) !important;
 }
 
-.quicklinks:has(:is(.quicklinkimg:hover)) .quicklinkimg:not(:is(:hover)) {
+.quicklinks:has(.quicklinkimg:hover) .quicklinkimg:not(:hover) {
   filter: grayscale(1) contrast(.8);
   transform: scale(0.85);
 
