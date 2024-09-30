@@ -3,7 +3,15 @@ window.addEventListener("DOMContentLoaded", (event) => {
         function highlightActiveBtn() {
             // get current url
             const currentPath = window.location.pathname.split('\'').pop(); 
-            console.log(currentPath);
+            // console.log(currentPath);
+
+            // only highlight title button if it's at the root directory
+            if (currentPath === "/") {
+                const titleButton = document.querySelector("body > div.NavBar-wrap > div.NavBar-title")
+                titleButton.classList.add('active');
+                return;
+            }
+            
             // get navbar buttons
             const navLinks = document.querySelectorAll('.NavButton');
             navLinks.forEach(button => {
