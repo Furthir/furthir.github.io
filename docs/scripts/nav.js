@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         function highlightActiveBtn() {
             // get current url
             const currentPath = window.location.pathname.split('\'').pop(); 
-
+            console.log(currentPath);
             // get navbar buttons
             const navLinks = document.querySelectorAll('.NavButton');
             navLinks.forEach(button => {
