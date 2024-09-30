@@ -60,6 +60,12 @@
   to {translate: 0px 0px; opacity: 1;}
 }
 
+@keyframes gradientM {
+  0%{background-position:0% 20%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 20%}
+}
+
 button {
   color: rgb(255, 255, 255);
   background-color: var(--accent-1);
@@ -197,6 +203,18 @@ body {
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   z-index: -999;
+}
+
+.gradient-border-animated::after {
+  background: linear-gradient(135deg, rgb(0, 228, 247) 10%, rgb(189, 72, 183) 80%),
+              linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, 
+                linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  background-size: 300% 300%;
+  animation: gradientM 2s infinite;
 }
 
 .bio {
@@ -745,8 +763,4 @@ h1 {
   animation: gradientM 2s ease infinite;
 }
 
-@keyframes gradientM {
-  0%{background-position:0% 20%}
-  50%{background-position:100% 100%}
-  100%{background-position:0% 20%}
-}
+
