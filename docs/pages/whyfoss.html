@@ -8,6 +8,7 @@
     <link rel="icon" type="image/x-icon" href="/assets/huh.ico">
     <link href="../main.css" rel="stylesheet" type="text/css"/>
     <script src="../scripts/scroll.js" type="text/javascript"></script>
+    <script src="../scripts/load-nav.js" type="text/javascript"></script>
     <script src="../scripts/nav.js" type="text/javascript"></script>
 </head>
 <div id="BGOverlay"></div>
@@ -17,35 +18,13 @@
     <img src="../assets/arrow.svg" alt="">
 </div>
 
-<div class="NavBar-wrap">
-    <div class="NavBar-title">
-        <button class="NavButton"; onclick="document.location='/index.html'">Home</button>
-    </div>
-    <div class="NavBar-pages">
-        <div class="DD">
-            <button class="NavButton active"; onclick="document.location='/pages/pages.html'";>Pages ▾</button>
-            <div class="DDContent">
-              <a href="/pages/whylinux.html">Why Linux?</a>
-              <a class="active" href="/pages/whyfoss.html">Why FOSS?</a>
-            </div>
-        </div>
-        <div class="DD">
-            <button class="NavButton"; onclick="document.location='/resources/useful.html'">Resources ▾</button>
-            <div class="DDContent">
-                <a href="/resources/linux.html">Linux</a>
-                <a href="/resources/windows.html">Windows</a>
-                <a href="/resources/repos.html">Repos</a>
-                <a href="/resources/alternatives.html">Alternatives</a>
-            </div>
-        </div>
-        <button class="NavButton"; onclick="document.location='/about.html'">About</button>
-    </div>
-</div>
+<div class="NavBar-wrap"></div>
 
 
 <div class="body">
     <div class="mainbody">
         <h1>Why FOSS?</h1>
+        <img src="https://cdn.7tv.app/emote/63727872389eb4921acc91c5/1x.webp" alt="">
         <p style="font-size: small;">FOSS stands for <b>F</b>ree and <b>O</b>pen <b>S</b>ource <b>S</b>oftware</p>
         <br>
         <div style="text-align: left; padding: 0px 8px;">
@@ -64,7 +43,7 @@
             <p>Most of the repos you see on github will be safe. No malware, no bloatware, no sussy stuff (mostly). You can't really get away with putting malicious stuff into your project for very long. Everything is documented via commits, which show exactly what has been modified since the last change. That doesn't mean there won't be any a project that contains <a href="https://en.wikipedia.org/wiki/XZ_Utils#Backdoor_incident" target="_blank">something malicious</a> at one point, whether in or out of their control. A good way of filtering some of the more sussy projects is to filter out searches that are lower than 100 stars, e.g. putting <code>stars:<100</code> into your search query on Github. Of course, the best way to tell if something is safe or not just manually reviewing the source code, but not everyone knows how to do that.</p>
             <br>
             <h2>Free (mostly)</h2>
-            <p>Free as in price. You shouldn't really be paying for proprietary software, especially if it's sussy and expensive. There are many great FOSS alternatives to proprietary software, but that's a <a href="/resources/alternatives.html">different topic</a>. Of course, there's no way around paying for an objectively good piece of software (well..) but using a quality alternative is still better than going in debt and having your stuff be used for ai.</p>
+            <p>Free as in price. You shouldn't really be paying for proprietary software if it's sussy and expensive. There are many great FOSS alternatives to proprietary software, but that's a <a href="/resources/alternatives.html">different topic</a>. Of course, there's no way around paying for an objectively good piece of software (well..) but using a quality alternative is still better than going in debt and having your stuff be used for ai.</p>
             <br>
             <h2>Just useful.</h2>
             <p>Many tools are just available on Github, but may not appear on search engines. Some obscure issue you have could probably be solved by an underground (or extremely popular) Github repo that never appeared on your search engine when you looked for a solution. It's why I've started to keep a <a href="/resources/repos.html">list</a> of useful or interesting repos that someone may find handy.</p>

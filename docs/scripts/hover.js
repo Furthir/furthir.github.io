@@ -50,4 +50,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
     }
     
 }, 1000);
+
+// ----- end -----
 });

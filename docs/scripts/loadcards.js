@@ -126,4 +126,6 @@ fetch('../data/alternatives.json')
   .catch(error => {
     console.error('data not loaded:', error);
   });
+
+// ----- end -----
 });

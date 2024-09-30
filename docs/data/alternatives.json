@@ -4,7 +4,7 @@
         "appName": "Krita",
         "appImage": "https://krita.org/images/pages/application-screenshot.webp",
         "appIcon": "../assets/krita.svg",
-        "description": "While Krita itself it meant to be a digital painting program, it can still be useful in general photo editing similar to Photoshop. It's also a great alternative to Clip Studio Paint. It is completely free and open source, so there isn't any reason not to try it out. Supports opening .psd files.",
+        "description": "While Krita itself it meant to be a digital painting program, it can still be useful in general photo editing similar to Photoshop. It's also a great alternative to Clip Studio Paint. Supports opening .psd files.",
         "altTo": "Photoshop",
         "platforms": [
             {"name": "Linux"},
