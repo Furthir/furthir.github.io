@@ -307,7 +307,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li, a {
   font-style: normal;
 }
 
-sub {
+sub, sup {
   color: white;
   font-size: smaller;
   font-family: "Baloo";
