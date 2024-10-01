@@ -145,7 +145,7 @@ body {
   border-radius: 20px;
   margin: 2% 3%;
   padding: 16px;
-  min-height: calc(47em - 180px);
+  min-height: calc(80vh - 180px);
   backdrop-filter: blur(12px);
   animation: FadeIn .8s;
 
@@ -163,6 +163,7 @@ body {
   justify-content: space-around;
   align-items: center;
   gap: 1em;
+  margin: 5vh 0px;
 }
 
 /* .np {
