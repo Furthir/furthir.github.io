@@ -67,11 +67,11 @@
 }
 
 button {
+  font-family: 'Poppins';
   color: rgb(255, 255, 255);
   background-color: var(--accent-1);
   padding: 12px 15px;
   text-align: center;
-  font-family: arial;
   display: inline-block;
   border: none;
   border-radius: 6px;
@@ -292,7 +292,6 @@ body {
 
 table {
   color: #ffffff;
-  font-family: arial;
   
 }
 
@@ -520,7 +519,6 @@ h1 {
   color: rgb(255, 255, 255);
   padding: 12px 15px;
   text-align: center;
-  font-family: arial;
   display: inline-block;
   border-radius: 6px;
   transition-duration: 0.4s;
@@ -537,7 +535,6 @@ h1 {
   background-color: rgb(194, 0, 201);
   text-decoration: none;
   cursor: default;
-  font-family: arial;
 }
 
 .DD {
