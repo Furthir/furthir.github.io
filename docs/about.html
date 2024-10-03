@@ -12,6 +12,7 @@
   <script src="scripts/load-nav.js" type="text/javascript"></script>
   <script src="scripts/hover.js" type="text/javascript"></script>
   <script src="scripts/colorshift.js" type="text/javascript"></script>
+  <script src="scripts/pepeDS.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -21,15 +22,48 @@
 
 <div class="NavBar-wrap"></div>
 
+<noscript>
+<div class="NavBar-wrap">
+    <div class="NavBar-title">
+        <a href="/index.html">Home</a>
+    </div>
+    <div class="NavBar-pages">
+        <div class="DD">
+            <a href="/pages/pages.html">Pages ▾</a>
+            <div class="DDContent">
+              <a href="/pages/whylinux.html">Why Linux?</a>
+              <a href="/pages/whyfoss.html">Why FOSS?</a>
+            </div>
+        </div>
+        <div class="DD">
+            <a class="NavButton"; href="/resources/useful.html">Resources ▾</a>
+            <div class="DDContent">
+                <a href="/resources/linux.html">Linux</a>
+                <a href="/resources/windows.html">Windows</a>
+                <a href="/resources/repos.html">Repos</a>
+                <a href="/resources/alternatives.html">Alternatives</a>
+            </div>
+        </div>
+        <a class="NavButton"; href="/projects.html">Projects</a>
+        <a class="NavButton"; href="/about.html">About</a>
+    </div>
+
+</div>
+
+    <div class="Note">
+      <b>Notice: This website requires JavaScript to run!</b> 
+    </div>
+</noscript>
+
 <div class="body">
     <h1>About Me</h1>
     <div class="altbody">
         <div class="np gradient-border gradient-border-animated">
             <h2>current song addiction</h2>
             <sub>it's not even a released or finished song lol</sub>
-            <audio src="https://ftn.s-ul.eu/XyrTpghb" controls></audio>
+            <audio id="SongAddiction" src="https://ftn.s-ul.eu/XyrTpghb" controls></audio>
             <sup>by Xomu</sup>
-            <img src="https://cdn.7tv.app/emote/60a3050fac2bcb20ef20fd9a/4x.webp" alt="" style="width: 48px;">
+            <img id="SongEmote" src="https://cdn.7tv.app/emote/635ab71df884792250e4b51d/4x.webp" alt="" style="width: 48px;">
 
         </div>
         <div class="bio gradient-border">
