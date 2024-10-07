@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
             // create card
             const card = document.createElement('div');
                 card.classList.add('card');
-                card.style.flexGrow = 0;
                 card.style.minWidth = '24vw';
             const cardContent = document.createElement('div');
                 cardContent.classList.add('card-content');
@@ -47,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function() {
             // quicklinks
             const quicklinksdiv = document.createElement('div');
                 quicklinksdiv.classList.add('quicklinks');
-                quicklinksdiv.style.alignSelf = 'center';
             const quicklink = document.createElement('a');
                 quicklink.href = entry.html_url;
                 quicklink.target = '_blank';
