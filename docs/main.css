@@ -182,6 +182,11 @@ body {
   padding: 16px;
   background: rgba(145, 145, 145, 0.2);
   border-radius: 8px;
+  width: 40%;
+}
+
+.np audio {
+  width: 100%;
 }
 
 .gradient-border {
