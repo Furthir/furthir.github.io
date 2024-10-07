@@ -740,6 +740,7 @@ h1 {
 .screenshot-vert img, .screenshot-vert video {
   height: 80vh;
   object-fit: contain;
+  max-width: 100%;
 }
 
 
