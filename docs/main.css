@@ -730,6 +730,7 @@ h1 {
 
 .screenshot-vert {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .screenshot-vert div {
