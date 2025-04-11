@@ -8,6 +8,27 @@
   --accent-2: rgb(194, 0, 201);
 }
 
+::selection {
+  background: rgb(247, 112, 215, 0.3);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 0, 100, 0.35);
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(145, 0, 145, 0.35);
+  transition: all .5s ease-in-out;
+}
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
@@ -127,7 +148,7 @@ html {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  background-image: url(https://ftn.s-ul.eu/tqnvlfPe);
+  background-image: url(https://ftn.s-ul.eu/f4ZkONxE);
   
 }
 
@@ -143,7 +164,7 @@ body {
   align-content: space-between;
   background-color: rgba(0,0,0,0.5) !important;
   border-radius: 20px;
-  margin: 2% 3%;
+  margin: 2% 5vw;
   padding: 16px;
   min-height: calc(80vh - 180px);
   backdrop-filter: blur(12px);
@@ -282,7 +303,6 @@ body {
 
 }
 
-
 .h-divide {
   background: white;
   width: 20px;
@@ -290,19 +310,12 @@ body {
   border-radius: 2px;
 }
 
-::selection {
-  background: rgb(247, 112, 215, 0.3);
-  
-}
-
 table {
   color: #ffffff;
-  
 }
 
 td {
   text-align: center;
-
 }
 
 p, h1, h2, h3, h4, h5, h6, ul, li, a {
@@ -762,11 +775,13 @@ h1 {
   width: 15rem;
 }
 
-.page-listing button:hover {
+.page-listing button:hover, .page-listing button:focus {
   width: 17rem;
   background: linear-gradient(45deg, var(--accent-1) 0%, var(--accent-2) 100%);
+  background-color: rgb(191, 63, 191);
   background-size: 300% 300%;
   animation: gradientM 2s ease infinite;
+  transition-property: all;
 }
 
 

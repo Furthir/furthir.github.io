@@ -1,4 +1,3 @@
-
 const icons = {
     platforms: {
         "Linux": "../assets/linux.svg",
@@ -12,7 +11,6 @@ const icons = {
         "Gitlab": "../assets/gitlab.svg"
     }
 };
-
 
 document.addEventListener("DOMContentLoaded", function() {
 // load
@@ -30,7 +28,6 @@ fetch('../data/alternatives.json')
     
         const card = document.createElement('div');
             card.classList.add('card');
-            console.log('created card');
         const cardContent = document.createElement('div');
             cardContent.classList.add('card-content');
 
@@ -46,7 +43,6 @@ fetch('../data/alternatives.json')
 
         const cardTitleText = document.createElement('h2');
             cardTitleText.innerHTML = `<img src="${entry.appIcon}" alt="${entry.appName}" loading="lazy"> ${entry.appName}`;
-        
 
         cardContent.appendChild(cardTitle);
         cardTitle.appendChild(cardTitleText);
@@ -82,8 +78,6 @@ fetch('../data/alternatives.json')
             quicklinksdiv.classList.add('quicklinks');
         
         Object.keys(entry.links).forEach(linkType => {
-            // console.log(entry.links);
-            // console.log(linkType);
             const quicklink = document.createElement('a');
                 quicklink.href = entry.links[linkType];
                 quicklink.target = '_blank';
@@ -92,7 +86,6 @@ fetch('../data/alternatives.json')
                 quicklinkimg.className = 'quicklinkimg';
                 quicklink.appendChild(quicklinkimg);
                 quicklinksdiv.appendChild(quicklink);
-
 
             // svg 
             const iconPath = icons.links[linkType];
@@ -115,7 +108,6 @@ fetch('../data/alternatives.json')
         quicklinksdiv.appendChild(alternto);
         cardContent.appendChild(quicklinksdiv);
 
-        
         // append card-content to card
         card.appendChild(cardContent);
             
